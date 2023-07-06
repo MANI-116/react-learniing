@@ -1,6 +1,7 @@
-import { StoryTray } from './challanges/fixBrokenStoryTRay'
+// import { StoryTray } from './challanges/fixBrokenStoryTRay'
 
-import Gallery from './challanges/completeGallery'
+// import Gallery from './challanges/completeGallery'
+import Form from "./challanges/fixStuckFormInputs"
 
 
 export default function App() {
@@ -9,7 +10,8 @@ export default function App() {
 
     <>
       <h1>hi started again</h1>
-      <Gallery></Gallery>
+      <Form></Form>
+
     </>
   )
 }
