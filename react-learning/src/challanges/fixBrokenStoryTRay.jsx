@@ -1,4 +1,4 @@
-export default function StoryTray({ stories }) {
+export function StoryTray({ stories }) {
     let NewStories = [...stories]
     NewStories.push({
         id: 'create',

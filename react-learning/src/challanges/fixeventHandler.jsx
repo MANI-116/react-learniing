@@ -1,4 +1,4 @@
-export default function LightSwitch() {
+export function LightSwitch() {
     function handleClick() {
         let bodyStyle = document.body.style;
         if (bodyStyle.backgroundColor === 'black') {
@@ -9,8 +9,9 @@ export default function LightSwitch() {
     }
 
     return (
-        <button onClick={handleClick()}>
+        <button onClick={handleClick}>
             Toggle the lights
         </button>
     );
 }
+//
